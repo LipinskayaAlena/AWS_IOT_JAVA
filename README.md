@@ -22,7 +22,8 @@ Register an IoT device on the AWS IoT dashboard and generate and attach the nece
 Download the client certificate, client private and the root CA certificate
 #Use the AWS IoT device SDK
 
-API documentation
+API Documentation
+http://aws-iot-device-sdk-java-docs.s3-website-us-east-1.amazonaws.com/
 
 #Config file
 
