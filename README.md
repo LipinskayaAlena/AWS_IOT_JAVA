@@ -35,6 +35,12 @@ AWS_IOT_ROOT_CA_FILENAME = <Your root CA certificate filename, e.g. root-ca.pem>
 AWS_IOT_CERTIFICATE_FILENAME = <Your certificate filename, e.g. client-cert.pem>
 AWS_IOT_PRIVATE_KEY_FILENAME = <Your private key filename, e.g. private-key.pem>
 ```````
+#Installing
+Creating the package is as simple as
+`
+mvn clean package
+`
+This will create an jar (Shade-Plugin) with all dependencies baked into the jar-file.
 #Running
 
 java -jar AWS_IOT_JAVA.jar PATH_TO_CONFIG_FILE
